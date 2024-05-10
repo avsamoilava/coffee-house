@@ -5,6 +5,10 @@ export function buildLoaders (options) {
 
   return [
     {
+      test: /\.html$/,
+      use: 'html-loader'
+    },
+    {
       test: /\.m?js/,
       type: "javascript/auto",
     },
@@ -22,7 +26,7 @@ export function buildLoaders (options) {
       test: /\.(png|svg|jpg|jpeg|gif)$/i,
       type: 'asset/resource',
       generator: {
-        filename: 'assets/[name][hash][ext]',
+        filename: 'assets/[name][ext]',
       },
     },
     {

@@ -13,6 +13,7 @@ export function buildWebpack(options) {
     output: {
       path: paths.output,
       filename: '[name].[contenthash].js', 
+      assetModuleFilename: 'assets/[name][ext][query]',
       clean: true
     },
     plugins: buildPlugins(options),
