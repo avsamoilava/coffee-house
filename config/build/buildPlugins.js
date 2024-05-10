@@ -8,7 +8,8 @@ export function buildPlugins (options) {
   const isProd = mode === 'production';
 
   const plugins = [
-    new HtmlWebpackPlugin({ template: paths.html})
+    new HtmlWebpackPlugin({ template: paths.html}),
+    new HtmlWebpackPlugin({ template: paths.html2, filename: 'menu.html'}),
   ]
 
   if (isDev) {

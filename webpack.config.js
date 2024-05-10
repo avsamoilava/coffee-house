@@ -12,7 +12,8 @@ export default (env) => {
   const paths = {
     entry: path.resolve(__dirname, 'src', 'index.js'),
     output: path.resolve(__dirname, 'build'),
-    html: path.resolve(__dirname, 'public', 'index.html')
+    html: path.resolve(__dirname, 'public', 'index.html'),
+    html2: path.resolve(__dirname, 'public', 'menu.html')
   }
 
   const config = buildWebpack({

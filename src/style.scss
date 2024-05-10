@@ -1,6 +1,4 @@
 @import '../node_modules/normalize.css/normalize.css';
-@import './assets/scss/_variables';
+@import './assets/scss/abstracts';
+@import './assets/scss/components';
 
-button {
-  background-color: tomato;
-}
