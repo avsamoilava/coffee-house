@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   background: $bg-body;
   border-radius: 100px;
   border: none;
@@ -14,7 +15,7 @@
   }
 
   &:hover {
-    gap: 10px;
+    
     img {
       display: block;
     }

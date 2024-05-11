@@ -1,19 +1,34 @@
 .enjoy {
   background-image: url(./assets/images/hero.jpg);
+  padding: 100px;
+  border-radius: 40px;
+  display: flex;
+  align-items: start;
 
   // .enjoy_content
 
   &_content {
+    max-width: 44%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
 
   // .enjoy_title
 
   &_title {
+    color: $text-light;
+    margin: 0;
+    span {
+      color: $text-accent;
+    }
   }
 
   // .enjoy_text
 
   &_text {
+    color: $text-light;
+    margin: 0;
   }
 
   // .enjoy_btn
