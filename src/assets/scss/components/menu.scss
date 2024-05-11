@@ -1,0 +1,18 @@
+.menu {
+
+  // .menu_list
+
+  &_list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+
+  // .menu_item
+
+  &_item {
+    a {
+      @include link-hover;
+    }
+  }
+}

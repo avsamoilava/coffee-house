@@ -1,0 +1,26 @@
+.btn-primary {
+  height: 64px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $bg-body;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+ 
+  img {
+    display: none;
+  }
+
+  &:hover {
+    gap: 10px;
+    img {
+      display: block;
+    }
+  }
+}
+
+.btn-secondary {
+
+}

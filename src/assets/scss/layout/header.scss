@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  // .header_logo
+
+  &_logo {
+  }
+
+  // .header_nav
+
+  &_nav {
+  }
+
+  // .header_btn
+
+  &_link {
+    @include link-hover;
+  }
+}
