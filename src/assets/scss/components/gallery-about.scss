@@ -1,0 +1,35 @@
+.gallery-about {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 430px 160px 430px;
+  grid-template-areas: 
+  'A B'
+  'A C'
+  'D C';
+
+  // .gallery-about_item
+
+  &_item {
+    border-radius: 20px;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &:nth-child(1) {
+      grid-area: A;
+    }
+    &:nth-child(2) {
+      grid-area: B;
+    }
+    &:nth-child(3) {
+      grid-area: C;
+    }
+    &:nth-child(4) {
+      grid-area: D;
+    }
+  }
+}

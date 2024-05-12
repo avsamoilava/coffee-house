@@ -1,0 +1,18 @@
+.about {
+
+  // .about_text
+
+  &_text {
+    color: $text-dark;
+    span {
+      color: $text-accent;
+    }
+  }
+
+  // .about_gallery
+
+  &_gallery {
+    margin-top: 40px;
+  }
+}
+
