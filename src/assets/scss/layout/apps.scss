@@ -1,0 +1,46 @@
+.apps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7.5%;
+  padding: 100px 0;
+  // .apps_content
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  // .apps_title
+
+  &_title {
+    margin: 0;
+    span {
+      color: $text-accent;
+    }
+  }
+
+  // .apps_text
+
+  &_text {
+    margin: 0;
+  }
+
+  // .apps_buttons
+
+  &_buttons {
+    display: flex;
+    gap: 20px;
+  }
+
+  // .apps_btn
+
+  &_btn {
+  }
+
+  // .apps_image
+
+  &_image {
+  }
+}

@@ -25,3 +25,29 @@
 .btn-secondary {
 
 }
+
+.btn-app {
+  border: 1px solid $bd-dark;
+  border-radius: 100px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  height: 64px;
+  width: 200px;
+  padding: 14px 20px;
+
+  &_text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    span {
+      font-family: InterBold, sans-serif;
+      line-height: 140%;
+      &:nth-child(1) {
+        font-size: 10px;
+      }
+    }
+  }
+}
